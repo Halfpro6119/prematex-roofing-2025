@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Prematex Roofing - Professional residential and commercial roofing services in Dallas Metroplex. Expert roof installation, repair, and replacement.">
+    <meta name="description" content="Prematex Roofing - Professional residential and commercial roofing services in Dallas Metroplex. Expert installation, repairs, and inspections.">
     <title>Prematex Roofing | Dallas Metroplex's Trusted Roofing Contractor</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -15,21 +15,19 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <div class="nav-wrapper">
-                <div class="logo">
-                    <a href="index.html">
-                        <span class="logo-text">PREMATEX</span>
-                        <span class="logo-subtext">ROOFING</span>
-                    </a>
-                </div>
-                <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">PREMATEX</span>
+                    <span class="logo-subtext">ROOFING</span>
+                </a>
+                <div class="nav-links" id="navLinks">
                     <a href="index.html" class="nav-link active">Home</a>
                     <a href="about.html" class="nav-link">About</a>
                     <a href="services.html" class="nav-link">Services</a>
                     <a href="gallery.html" class="nav-link">Gallery</a>
                     <a href="contact.html" class="nav-link">Contact</a>
-                    <a href="tel:2144600997" class="nav-phone">(214) 460-0997</a>
+                    <a href="tel:+14695551234" class="nav-phone">📞 (469) 555-1234</a>
                 </div>
-                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -44,24 +42,48 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">Dallas Metroplex's Most Trusted Roofing Experts</h1>
-                <p class="hero-subtitle">Professional residential & commercial roofing services. Quality craftsmanship, reliable service, and peace of mind for your property.</p>
+                <p class="hero-subtitle">Professional residential & commercial roofing services. Licensed, insured, and committed to excellence since day one.</p>
                 <div class="hero-cta">
-                    <a href="contact.html" class="btn btn-primary">Get Free Estimate</a>
-                    <a href="tel:2144600997" class="btn btn-secondary">Call (214) 460-0997</a>
+                    <a href="#contact-form" class="btn btn-primary">Get Free Inspection</a>
+                    <a href="tel:+14695551234" class="btn btn-secondary">Call Now: (469) 555-1234</a>
                 </div>
-                <div class="hero-trust">
-                    <div class="trust-item">
-                        <span class="trust-icon">✓</span>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <span class="feature-icon">✓</span>
                         <span>Licensed & Insured</span>
                     </div>
-                    <div class="trust-item">
-                        <span class="trust-icon">✓</span>
-                        <span>15+ Years Experience</span>
+                    <div class="hero-feature">
+                        <span class="feature-icon">✓</span>
+                        <span>24/7 Emergency Service</span>
                     </div>
-                    <div class="trust-item">
-                        <span class="trust-icon">✓</span>
-                        <span>100% Satisfaction Guaranteed</span>
+                    <div class="hero-feature">
+                        <span class="feature-icon">✓</span>
+                        <span>Lifetime Warranty</span>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="trust-bar">
+        <div class="container">
+            <div class="trust-items">
+                <div class="trust-item">
+                    <div class="trust-number">15+</div>
+                    <div class="trust-label">Years Experience</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-number">2,500+</div>
+                    <div class="trust-label">Projects Completed</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-number">100%</div>
+                    <div class="trust-label">Satisfaction Rate</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-number">A+</div>
+                    <div class="trust-label">BBB Rating</div>
                 </div>
             </div>
         </div>
@@ -71,33 +93,45 @@
     <section class="services-overview">
         <div class="container">
             <div class="section-header">
-                <h2>Complete Roofing Solutions</h2>
-                <p>From residential homes to commercial properties, we deliver excellence in every project</p>
+                <h2 class="section-title">Complete Roofing Solutions</h2>
+                <p class="section-subtitle">From residential repairs to commercial installations, we do it all</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">🏠</div>
-                    <h3>Residential Roofing</h3>
-                    <p>Expert installation and repair services for homeowners throughout the Dallas Metroplex.</p>
+                    <h3 class="service-title">Residential Roofing</h3>
+                    <p class="service-description">Expert installation, repair, and replacement for all residential roofing systems. Protect your home with quality craftsmanship.</p>
                     <a href="services.html#residential" class="service-link">Learn More →</a>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🏢</div>
-                    <h3>Commercial Roofing</h3>
-                    <p>Durable, cost-effective roofing solutions for businesses and commercial properties.</p>
+                    <h3 class="service-title">Commercial Roofing</h3>
+                    <p class="service-description">Comprehensive commercial roofing solutions for businesses across the Dallas Metroplex. Minimal disruption, maximum results.</p>
                     <a href="services.html#commercial" class="service-link">Learn More →</a>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🔧</div>
-                    <h3>Roof Repairs</h3>
-                    <p>Fast, reliable repairs to protect your property from leaks and weather damage.</p>
+                    <h3 class="service-title">Roof Repairs</h3>
+                    <p class="service-description">Fast, reliable roof repair services. We fix leaks, storm damage, and wear-and-tear issues quickly and affordably.</p>
                     <a href="services.html#repairs" class="service-link">Learn More →</a>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🔍</div>
-                    <h3>Roof Inspections</h3>
-                    <p>Comprehensive inspections to identify issues before they become costly problems.</p>
+                    <h3 class="service-title">Roof Inspections</h3>
+                    <p class="service-description">Thorough roof inspections to identify issues before they become expensive problems. Free estimates included.</p>
                     <a href="services.html#inspections" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3 class="service-title">Emergency Services</h3>
+                    <p class="service-description">24/7 emergency roofing services for urgent repairs. We're here when you need us most.</p>
+                    <a href="services.html#emergency" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3 class="service-title">Maintenance Plans</h3>
+                    <p class="service-description">Preventative maintenance programs to extend your roof's lifespan and avoid costly repairs.</p>
+                    <a href="services.html#maintenance" class="service-link">Learn More →</a>
                 </div>
             </div>
         </div>
@@ -108,65 +142,125 @@
         <div class="container">
             <div class="why-choose-content">
                 <div class="why-choose-text">
-                    <h2>Why Dallas Homeowners & Businesses Choose Prematex</h2>
-                    <div class="benefit-list">
+                    <h2 class="section-title">Why Dallas Homeowners & Businesses Choose Prematex</h2>
+                    <div class="benefits-list">
                         <div class="benefit-item">
-                            <div class="benefit-icon">⚡</div>
-                            <div class="benefit-text">
-                                <h3>Fast Response Times</h3>
-                                <p>We understand roofing emergencies can't wait. Our team responds quickly to protect your property.</p>
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-content">
+                                <h3>Licensed & Fully Insured</h3>
+                                <p>Complete peace of mind with full licensing and comprehensive insurance coverage.</p>
                             </div>
                         </div>
                         <div class="benefit-item">
-                            <div class="benefit-icon">💎</div>
-                            <div class="benefit-text">
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-content">
+                                <h3>Lifetime Warranty</h3>
+                                <p>Industry-leading warranties on materials and workmanship. Your investment is protected.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-content">
+                                <h3>Local Dallas Experts</h3>
+                                <p>We understand Texas weather and building codes. Serving the entire Dallas Metroplex.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-content">
                                 <h3>Premium Materials</h3>
-                                <p>We use only the highest quality roofing materials designed to withstand Texas weather.</p>
+                                <p>We use only top-tier roofing materials from trusted manufacturers like GAF, Owens Corning, and CertainTeed.</p>
                             </div>
                         </div>
                         <div class="benefit-item">
-                            <div class="benefit-icon">👷</div>
-                            <div class="benefit-text">
-                                <h3>Expert Craftsmen</h3>
-                                <p>Our experienced team delivers superior workmanship on every project, big or small.</p>
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-content">
+                                <h3>Transparent Pricing</h3>
+                                <p>No hidden fees. Clear, upfront estimates so you know exactly what to expect.</p>
                             </div>
                         </div>
                         <div class="benefit-item">
-                            <div class="benefit-icon">🛡️</div>
-                            <div class="benefit-text">
-                                <h3>Warranty Protection</h3>
-                                <p>Comprehensive warranties on materials and workmanship for your peace of mind.</p>
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-content">
+                                <h3>Fast Response Time</h3>
+                                <p>We respond quickly to all inquiries and emergencies. Your time matters to us.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="why-choose-image">
                     <div class="image-placeholder">
-                        <span>Professional Roofing Team</span>
+                        <div class="placeholder-text">Professional Roofing Team</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Service Areas -->
-    <section class="service-areas">
+    <!-- Process Section -->
+    <section class="process-section">
         <div class="container">
             <div class="section-header">
-                <h2>Proudly Serving the Dallas Metroplex</h2>
-                <p>Professional roofing services throughout North Texas</p>
+                <h2 class="section-title">Our Simple 4-Step Process</h2>
+                <p class="section-subtitle">From inspection to completion, we make roofing easy</p>
             </div>
-            <div class="areas-grid">
-                <div class="area-item">Plano</div>
-                <div class="area-item">Dallas</div>
-                <div class="area-item">Frisco</div>
-                <div class="area-item">McKinney</div>
-                <div class="area-item">Allen</div>
-                <div class="area-item">Richardson</div>
-                <div class="area-item">Carrollton</div>
-                <div class="area-item">Irving</div>
-                <div class="area-item">Garland</div>
-                <div class="area-item">Mesquite</div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Free Inspection</h3>
+                    <p class="step-description">We conduct a thorough inspection of your roof and provide a detailed assessment.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Detailed Estimate</h3>
+                    <p class="step-description">Receive a transparent, itemized quote with no hidden fees or surprises.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Expert Installation</h3>
+                    <p class="step-description">Our skilled team completes the work efficiently with minimal disruption.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Final Walkthrough</h3>
+                    <p class="step-description">We ensure you're 100% satisfied and explain your warranty coverage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real reviews from real Dallas Metroplex homeowners and businesses</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Prematex did an outstanding job on our commercial building. Professional, on-time, and the quality is exceptional. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <strong>Michael R.</strong>
+                        <span>Business Owner, Plano</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"After storm damage, they responded within hours and had our roof repaired quickly. Great communication throughout the entire process."</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah T.</strong>
+                        <span>Homeowner, Dallas</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Best roofing company in Dallas! Fair pricing, excellent work, and they cleaned up everything perfectly. Our new roof looks amazing."</p>
+                    <div class="testimonial-author">
+                        <strong>James K.</strong>
+                        <span>Homeowner, Frisco</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -175,12 +269,73 @@
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Ready to Protect Your Property?</h2>
-                <p>Get your free, no-obligation roofing estimate today. Our experts are standing by.</p>
+                <h2 class="cta-title">Ready to Protect Your Property?</h2>
+                <p class="cta-subtitle">Get your free roof inspection and estimate today. No obligation, no pressure.</p>
                 <div class="cta-buttons">
-                    <a href="contact.html" class="btn btn-primary btn-large">Schedule Free Estimate</a>
-                    <a href="tel:2144600997" class="btn btn-secondary btn-large">Call (214) 460-0997</a>
+                    <a href="#contact-form" class="btn btn-primary btn-large">Schedule Free Inspection</a>
+                    <a href="tel:+14695551234" class="btn btn-secondary btn-large">Call (469) 555-1234</a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section" id="contact-form">
+        <div class="container">
+            <div class="contact-form-wrapper">
+                <div class="contact-form-info">
+                    <h2>Get Your Free Inspection</h2>
+                    <p>Fill out the form and we'll contact you within 24 hours to schedule your free roof inspection.</p>
+                    <div class="contact-info-items">
+                        <div class="contact-info-item">
+                            <span class="info-icon">📞</span>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>(469) 555-1234</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <span class="info-icon">✉️</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>info@prematex.net</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <strong>Service Area</strong>
+                                <p>Dallas Metroplex & Surrounding Areas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select Service Type</option>
+                            <option value="residential">Residential Roofing</option>
+                            <option value="commercial">Commercial Roofing</option>
+                            <option value="repair">Roof Repair</option>
+                            <option value="inspection">Roof Inspection</option>
+                            <option value="emergency">Emergency Service</option>
+                            <option value="maintenance">Maintenance Plan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell us about your roofing needs..." rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Request Free Inspection</button>
+                </form>
             </div>
         </div>
     </section>
@@ -189,15 +344,12 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-col">
-                    <div class="footer-logo">
-                        <span class="logo-text">PREMATEX</span>
-                        <span class="logo-subtext">ROOFING</span>
-                    </div>
-                    <p class="footer-desc">Your trusted partner for residential and commercial roofing services in the Dallas Metroplex.</p>
+                <div class="footer-column">
+                    <h3 class="footer-title">PREMATEX ROOFING</h3>
+                    <p class="footer-description">Dallas Metroplex's trusted roofing contractor for residential and commercial projects. Licensed, insured, and committed to excellence.</p>
                 </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Quick Links</h4>
                     <ul class="footer-links">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
@@ -206,31 +358,32 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Services</h4>
                     <ul class="footer-links">
                         <li><a href="services.html#residential">Residential Roofing</a></li>
                         <li><a href="services.html#commercial">Commercial Roofing</a></li>
                         <li><a href="services.html#repairs">Roof Repairs</a></li>
-                        <li><a href="services.html#inspections">Roof Inspections</a></li>
+                        <li><a href="services.html#inspections">Inspections</a></li>
+                        <li><a href="services.html#emergency">Emergency Service</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <h4>Contact Info</h4>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Contact Us</h4>
                     <ul class="footer-contact">
-                        <li>📞 <a href="tel:2144600997">(214) 460-0997</a></li>
-                        <li>✉️ <a href="mailto:info@prematex.net">info@prematex.net</a></li>
-                        <li>📍 Plano, TX 75093</li>
-                        <li>🕐 Mon-Sat: 7AM-7PM</li>
+                        <li>📞 (469) 555-1234</li>
+                        <li>✉️ info@prematex.net</li>
+                        <li>📍 Serving Dallas Metroplex</li>
+                        <li>🕐 24/7 Emergency Service</li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Prematex Roofing. All rights reserved.</p>
+                <p>&copy; 2025 Prematex Roofing. All rights reserved. | Licensed & Insured</p>
             </div>
         </div>
     </footer>
 
-    <script src="assets/js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
